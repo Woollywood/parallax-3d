@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/_head.htm',{ "title":"HomePage" })
+	<body>
+		<div class="wrapper">
+			<main class="page">
+				<a class="page__logo" href="#">
+					<img src="@img/logo.svg" alt="logo-svg" />
+				</a>
+
+				<section class="page__layers layers">
+					<div class="layers__wrapper">
+						<div class="layers__item layers__item-ibg layers__item_1">
+							<img src="@img/layer-1.jpg" alt="layer-background" />
+						</div>
+						<div class="layers__item layers__item-ibg layers__item_2">
+							<img src="@img/layer-2.png" alt="layer-background" />
+						</div>
+						<div class="layers__item layers__item-ibg layers__item_3">
+							<div class="layers__content">
+								<h1 class="layers__title">Natural Forest <span>HTML / CSS</span></h1>
+								<p class="layers__text">Creating a beautiful 3D website with a 'lens effect'</p>
+								<a class="layers__button" href="#">Start Learning</a>
+							</div>
+						</div>
+						<div class="layers__item layers__item-ibg layers__item_4">
+							<canvas class="rain"></canvas>
+						</div>
+						<div class="layers__item layers__item-ibg layers__item_5">
+							<img src="@img/layer-5.png" alt="layer-background" />
+						</div>
+						<div class="layers__item layers__item-ibg layers__item_6">
+							<img src="@img/layer-6.png" alt="layer-background" />
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		@@include('html/_js.htm',{})
+	</body>
+</html>
